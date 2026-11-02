@@ -8,7 +8,7 @@ Production-grade, modular Infrastructure as Code (IaC) managing multi-region AWS
 
 ---
 
-## 🏛️ Architecture & Component Topology
+## ️ Architecture & Component Topology
 
 ```text
 cloud-infrastructure-iac/
@@ -41,7 +41,7 @@ cloud-infrastructure-iac/
 
 ---
 
-## 🔒 Security Best Practices Implemented
+##  Security Best Practices Implemented
 
 1. **State Protection**: Remote state stored in AWS S3 with AES-256 server-side encryption and DynamoDB distributed state locking.
 2. **Least Privilege**: IAM Roles for Service Accounts (IRSA) eliminates static AWS credentials inside Kubernetes pods.
@@ -50,7 +50,7 @@ cloud-infrastructure-iac/
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 ```bash
 cd environments/prod
@@ -61,7 +61,7 @@ terraform apply tfplan
 
 ---
 
-## 👤 Author
+##  Author
 
 **Emaan Humayun**
 - GitHub: [@EmaanHumayun](https://github.com/EmaanHumayun)
